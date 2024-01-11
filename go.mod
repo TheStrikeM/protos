@@ -1,4 +1,4 @@
-module github.com/TheStrikeM/ticket-proto
+module github.com/TheStrikeM/protos
 
 go 1.21
 
