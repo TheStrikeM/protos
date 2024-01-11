@@ -6,7 +6,7 @@ package ticket_proto;
 
 import "google/protobuf/empty.proto";
 
-service Complain {
+service TicketService {
   rpc AllTickets (AllTicketsRequest) returns (AllTicketsResponse);
   rpc CreateTicket (CreateTicketRequest) returns (CreateTicketResponse);
   rpc ResolveTicket (ResolveTicketRequest) returns (google.protobuf.Empty);
